@@ -1,0 +1,24 @@
+.filterButton {
+  background-color: green;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  padding: 3px 0 3px 0;
+  text-align: center;
+  & .mainLabel {
+    display: span;
+  }
+  & .hoverLabel {
+    display: none;
+  }
+  &:hover {
+    background-color: black;
+    color: green;
+    & .mainLabel {
+      display: none;
+    }
+    & .hoverLabel {
+      display: inline;
+    }
+  }
+}

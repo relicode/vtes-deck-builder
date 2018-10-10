@@ -1,0 +1,25 @@
+@import './reset.css';
+
+.header {
+  text-align: center;
+  font-size: 24px;
+}
+
+.columnWrapper {
+  lost-utility: clearfix;
+}
+
+.sideColumn {
+  lost-column: 1/4;
+  & .content {
+    padding: 0 5px 0 5px;
+  }
+  & .listItem {
+    margin-top: 10px;
+  }
+}
+
+.mainColumn {
+  lost-column: 2/4;
+}
+
